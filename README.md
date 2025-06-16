@@ -1,4 +1,4 @@
-# 🩺 Medical Image Classification using Deep Learning
+#  Medical Image Classification using Deep Learning
 
 This repository presents two deep learning projects focused on the classification of medical images using public datasets: **RetinaMNIST** and **ChestMNIST**. These projects explore different disease detection tasks using convolutional neural networks (CNNs), data augmentation, and performance evaluation techniques.
 
@@ -49,6 +49,3 @@ Dataset Source: [MedMNIST - ChestMNIST](https://medmnist.com/)
 
 
 
----
-
-# Medical-Image-Classification-Using-Deep-Learning
