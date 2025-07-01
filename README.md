@@ -46,6 +46,13 @@ Dataset Source: [MedMNIST - ChestMNIST](https://medmnist.com/)
 
 ---
 
+## Summary
+This study demonstrated the application of both custom-designed lightweight CNNs and pre-trained deep learning models for multi-class medical image classification using the RetinaMNIST and ChestMNIST datasets. In both datasets, the simple custom CNNs achieved the best performance, highlighting its effectiveness over more complex pre-trained models. The experimental results showed that conventional CNNs, even when enhanced with data augmentation and hyperparameter optimization, faced limitations in accurately classifying low-resolution RetinaMNIST images. For the ChestMNIST dataset, classification performance was impacted by class imbalance, and dataset’s multi-label nature. Reformulating the dataset into a single-label task simplified training but likely reduced diagnostic accuracy by discarding additional clinical information. While pre-trained models were explored for the ChestMNIST, they could not be fully trained within the available computational resources. Hence, custom CNNs offered a practical alternative, achieving comparable performance with significantly reduced training time.
+
+These findings highlight the need for dataset-specific modeling strategies. While pre-trained models offer strong generalization capabilities in many domains, lightweight CNNs remain equally effective with simple light-weight datasets. Future work may consider reintroducing multi-label learning frameworks to better align with the original ChestMNIST label structure, further fine-tuning of pre-trained models and the development of deeper custom CNN architectures.
+
+
+
 
 
 
