@@ -36,7 +36,7 @@ Dataset Source: [MedMNIST - ChestMNIST](https://medmnist.com/)
 
 ---
 
-## 🛠 Tools & Libraries
+## Tools & Libraries
 
 - Python
 - TensorFlow / Keras
